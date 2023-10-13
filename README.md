@@ -12,7 +12,6 @@ Copyright 2023 Harry Zhao
    See the License for the specific language governing permissions and
    limitations under the License.
 
-
 CMPUT404-assignment-web-client
 ==============================
 
