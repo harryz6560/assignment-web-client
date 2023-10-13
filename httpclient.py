@@ -129,8 +129,7 @@ class HTTPClient(object):
             args = ''
         else:
             args = urlencode(args)
-        
-        # reference: TA help session
+            
         request = f"POST {path} HTTP/1.1\r\nHost: {host}\r\nAccept: */*\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: {len(args)}\r\nConnection: close\r\n\r\n{args}"
         # send request and recive data
         self.sendall(request)
